@@ -1,0 +1,42 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# ctgovreporting
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+## Installation
+
+You can install the development version of ctgovreporting from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("kaneplusplus/ctgovreporting")
+```
+
+## Example
+
+```{r example}
+library(ctgovreporting)
+library(sf)
+library(ggplot2)
+data(ct_county)
+ggplot(ct_county, aes()) +
+  geom_sf() +
+  theme_bw()
+## basic example code
+```
+
