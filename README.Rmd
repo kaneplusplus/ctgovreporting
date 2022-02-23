@@ -29,7 +29,7 @@ devtools::install_github("kaneplusplus/ctgovreporting")
 
 ## Example
 
-```{r example}
+```{r eval = FALSE}
 library(ctgovreporting)
 library(sf)
 library(ggplot2)
@@ -37,6 +37,5 @@ data(ct_county)
 ggplot(ct_county, aes()) +
   geom_sf() +
   theme_bw()
-## basic example code
 ```
 
