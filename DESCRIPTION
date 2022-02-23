@@ -1,0 +1,36 @@
+Package: ctgovreporting
+Type: Package
+Title: Utilities for reporting covid cases for Connecticut
+Version: 0.1.2
+Author: Who wrote it
+Maintainer: Michael Kane <michael.kane@ct.gov>
+Description: TODO.
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
+Depends: 
+  R (>= 4.0)
+Imports:
+  dplyr,
+  ggplot2,
+  DBI,
+  odbc,
+  sf
+Suggests:
+  rmarkdown, 
+  kableExtra,
+  tidyverse,
+  lubridate,
+  formatR, 
+  MMWRweek,
+  scales,
+  english,
+  flextable,
+  slider,
+  stringdist,
+  yaml,
+  knitr,
+  testthat (>= 3.0.0)
+License: Apache License (>= 2)
+VignetteBuilder: knitr
+Config/testthat/edition: 3

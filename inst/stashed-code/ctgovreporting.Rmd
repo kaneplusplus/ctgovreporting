@@ -1,0 +1,27 @@
+---
+title: "Using the ctgovreporting package"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{ctgovreporting}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Available shape files
+
+```{r setup}
+library(ctgovreporting)
+library(sf)
+library(ggplot2)
+data(ct_county)
+ggplot(ct_county, aes()) +
+  geom_sf() +
+  theme_bw()
+```
