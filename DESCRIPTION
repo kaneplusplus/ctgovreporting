@@ -1,7 +1,7 @@
 Package: ctgovreporting
 Type: Package
 Title: Utilities for reporting covid cases for Connecticut
-Version: 0.1.2
+Version: 0.1.3
 Author: Who wrote it
 Maintainer: Michael Kane <michael.kane@ct.gov>
 Description: TODO.
