@@ -4,6 +4,8 @@
 # ctgovreporting
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/kaneplusplus/ctgovreporting/workflows/R-CMD-check/badge.svg)](https://github.com/kaneplusplus/ctgovreporting/actions)
 <!-- badges: end -->
 
 ## Installation
